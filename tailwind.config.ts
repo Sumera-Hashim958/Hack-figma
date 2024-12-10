@@ -27,6 +27,10 @@ const config: Config = {
         simsmokey: "#FAF4F4",
         greysame: "#9F9F9F",
         biscuitsame: "#FFF9E5",
+        blue: "#816DFA",
+        brown: "#CDBA7B",
+
+
       },
     },
   },

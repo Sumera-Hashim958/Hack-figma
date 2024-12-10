@@ -8,6 +8,12 @@ import OurBlogs from "./components/OurBlogs/ourblogs";
 import Ourinsta from './components/OurInsta/ourinsta';
 import Footer from "./components/Footer/footer";
 import Shop from "./components/Shop/shop";
+import AsgardSofa from "./components/AsgardSofa/asgardsofa";
+import MyAccount from "./components/MyAccount/myaccount";
+import Blog from "./components/Blog/blog";
+import CheckOut from "./components/CheckOut/checkout";
+import Cart from "./components/Cart/cart";
+import Contact from "./components/Contact/contact";
 
 const page = () => {
   return (
@@ -20,6 +26,12 @@ const page = () => {
       <OurBlogs/>
       <Ourinsta/>
       <Shop/>
+      <AsgardSofa/>
+      <MyAccount/>
+      <CheckOut/>
+      <Cart/>
+      <Contact/>
+      <Blog/>
       <Footer/>
     </div>
   )
