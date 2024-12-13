@@ -5,7 +5,7 @@ const topPics = () => {
   return (
     <div className="h-[800px] bg-swhite">
         {/* TopPics Title*/}
-        <div className="text-center mt-4">
+        <div className="text-center mt-8">
           <p className="font-medium text-[36px] leading-[56px] font-poppins">
             Top Pics For You
           </p>
@@ -15,7 +15,7 @@ const topPics = () => {
         {/* First Row */}
         {/* First image */}
       <div className="flex mt-20 gap-4">
-        <div className="w-[287px] h-[372px] ml-10 border-2 border-black">
+        <div className="w-[287px] h-[372px] ml-10">
           <Image src="/trent-sofa-third.svg" alt="course-image" width={287} height={287} />
           <div className="text-left">
             <p className="font-normal text-[16px] leading-[24px] font-poppins text-sblack ">Trenton modular sofa_3</p>
@@ -25,7 +25,7 @@ const topPics = () => {
         {/* First Row */}
         {/* Second image */}
         <div className="flex gap-4">
-        <div className="w-[287px] h-[372px] border-2 border-black">
+        <div className="w-[287px] h-[372px]">
           <Image src="/granite-dining-third.svg" alt="course-image" width={287} height={287} />
           <div className="text-left">
             <p className="font-normal text-[16px] leading-[24px] font-poppins text-sblack w-[212px] h-[48px] ">Granite dining table with dining chair</p>
@@ -35,7 +35,7 @@ const topPics = () => {
         {/* First Row */}
         {/* Third image */}
         <div className="flex gap-4">
-        <div className="w-[287px] h-[372px] border-2 border-black">
+        <div className="w-[287px] h-[372px]">
           <Image src="/bar-table-third.svg" alt="course-image" width={287} height={287} />
           <div className="text-left">
             <p className="font-normal text-[16px] leading-[24px] font-poppins text-sblack w-[180px] h-[48px]">Outdoor bar table and stool</p>
@@ -45,7 +45,7 @@ const topPics = () => {
         {/* First Row */}
         {/* Fourth image */}
         <div className="flex gap-4">
-        <div className="w-[287px] h-[372px] border-2 border-black">
+        <div className="w-[287px] h-[372px]">
           <Image src="/plain-mirror-third.svg" alt="course-image" width={287} height={287} />
           <div className="text-left">
             <p className="font-normal text-[16px] leading-[24px] font-poppins text-sblack w-[180px] h-[48px]">Plain console with teak mirror</p>

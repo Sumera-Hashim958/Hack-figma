@@ -14,6 +14,7 @@ import Blog from "./components/Blog/blog";
 import CheckOut from "./components/CheckOut/checkout";
 import Cart from "./components/Cart/cart";
 import Contact from "./components/Contact/contact";
+import Description from "./components/Description/description";
 
 const page = () => {
   return (
@@ -27,6 +28,7 @@ const page = () => {
       <Ourinsta/>
       <Shop/>
       <AsgardSofa/>
+      <Description/>
       <MyAccount/>
       <CheckOut/>
       <Cart/>
