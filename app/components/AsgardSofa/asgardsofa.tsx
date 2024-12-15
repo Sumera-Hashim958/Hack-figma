@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const productdetail = () => {
   return (
-    <div className="h-[1600px] bg-swhite">
+    <div className="h-[800px] bg-swhite">
         <div className="flex ml-36 mt-8 gap-8">
       <p className="font-normal text-[16px] leading-[24px] text-greysame font-poppins">Home</p>
       <Image src="./Vector.svg" alt="vector-image" width={8} height={8}/>

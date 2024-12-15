@@ -3,12 +3,12 @@ import Image from 'next/image'
 
 const blog = () => {
   return (
-    <div className="h-[2500px]">
+    <div className="h-[1100px]">
     <div className="h-[316px] relative w-[100%] bg-[url('/shop-bg.svg')] bg-cover bg-center flex items-center justify-center">
     {/* Content Overlay */}
-    <div className=" text-center">
+    <div className="flex flex-col justify-center items-center">
         <Image src="./Meubel House_Logos-05.svg" alt="logo-image" width={77} height={77} className="items-center"/>
-        <p className="text-[48px] leading-[72px] font-medium font-poppings text-sblack mb-2">Blog</p>
+        <p className="text-[48px] leading-[50px] font-medium font-poppings text-sblack mb-2">Blog</p>
         <div className="flex justify-center items-center gap-4">
         <p className="text-[16px] leading-[24px] font-medium font-poppins">Home</p>
         <Image src="./Vector.svg" alt="logo-image" width={8} height={8}/>

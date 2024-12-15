@@ -3,12 +3,12 @@ import Image from 'next/image'
 
 const contact = () => {
   return (
-    <div className="h-[1550px] mt-48">
+    <div className="h-[1200px] mt-48">
     <div className="h-[316px] relative w-[100%] bg-[url('/shop-bg.svg')] bg-cover bg-center flex items-center justify-center mt-20">
     {/* Content Overlay */}
-    <div className=" text-center">
+    <div className="flex flex-col justify-center items-center">
         <Image src="./Meubel House_Logos-05.svg" alt="logo-image" width={77} height={77} className="items-center"/>
-        <p className="text-[48px] leading-[72px] font-medium font-poppings text-sblack mb-2">Contact</p>
+        <p className="text-[48px] leading-[50px] font-medium font-poppings text-sblack mb-2">Contact</p>
         <div className="flex justify-center items-center gap-4">
         <p className="text-[16px] leading-[24px] font-medium font-poppins">Home</p>
         <Image src="./Vector.svg" alt="logo-image" width={8} height={8}/>
@@ -17,12 +17,12 @@ const contact = () => {
       </div>
       </div>       
       {/*start main container*/}
-      <div className="text-center mt-10">
+      <div className="flex flex-col items-center justify-center mt-10 text-center">
         <p className="font-poppins font-bold text-[36px] leading-[54px] text-sblack">Get In Touch With Us</p>
         <p className="font-poppins font-normal text-[16px] leading-[24px] text-greysame w-[544px] h-[48px]">For More Information About Our Product & Services. Please Feel Free To Drop Us An Email. Our Staff Always Be There To Help You Out. Do Not Hesitate!</p>
       </div>
       {/*left section*/}
-      <div className="flex justify-between mt-10 ml-10">
+      <div className="flex justify-between mt-20 ml-10">
       <div className="w-1/3 ml-52">
       <div className="flex gap-2">
         <Image src="./location-cont.svg" alt="loc-image" width={22} height={28}/>

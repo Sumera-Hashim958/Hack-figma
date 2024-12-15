@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const ourBlogs = () => {
   return (
-    <div className="h-[944px] bg-swhite">
+    <div className="h-[800px] bg-swhite">
         {/* TopPics Title*/}
         <div className="text-center mt-4">
           <p className="font-medium text-[36px] leading-[54px] font-poppins">
@@ -14,8 +14,8 @@ const ourBlogs = () => {
           </p>
         {/* First Row */}
         {/* First image */}
-      <div className="flex mt-20 gap-4">
-        <div className="w-[393px] h-[555px] ml-10 border-2 border-black">
+      <div className="flex mt-10 gap-4">
+        <div className="w-[393px] h-[555px] ml-10">
           <Image src="/keyboard-blog.svg" alt="course-image" width={393} height={393} />
           <div className="mt-6 text-center">
             <p className="font-normal text-[20px] leading-[30px] font-poppins text-sblack ">Going all-in with millennial design</p>
@@ -29,7 +29,7 @@ const ourBlogs = () => {
         {/* First Row */}
         {/* Second image */}
         <div className="flex gap-4">
-        <div className="w-[393px] h-[555px] border-2 border-black">
+        <div className="w-[393px] h-[555px]">
           <Image src="/laptop-blog.svg" alt="course-image" width={393} height={393} />
           <div className="mt-6 text-center">
             <p className="font-normal text-[20px] leading-[30px] font-poppins text-sblack ">Going all-in with millennial design</p>
@@ -43,7 +43,7 @@ const ourBlogs = () => {
         {/* First Row */}
         {/* Third image */}
         <div className="flex gap-4">
-        <div className="w-[393px] h-[555px] border-2 border-black">
+        <div className="w-[393px] h-[555px]">
           <Image src="/lcd-blog.svg" alt="course-image" width={393} height={393} />
           <div className="mt-6 text-center">
             <p className="font-normal text-[20px] leading-[30px] font-poppins text-sblack ">Going all-in with millennial design</p>
@@ -58,7 +58,7 @@ const ourBlogs = () => {
               </div>
         </div>
       </div>
-            <div className="text-center mt-28">
+            <div className="text-center mt-10">
           <p className="font-medium text-[20px] leading-[36px] font-poppins text-sblack">View All Post</p>
         </div>
           <div className="flex flex-col items-center">

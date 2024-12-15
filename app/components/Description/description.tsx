@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const description = () => {
   return (
-    <div className="h-[800px] bg-swhite">
+    <div className="h-[650px] bg-swhite">
     {/*description */}
     <div className="flex justify-center items-center gap-8 font-normal text-[24px] leading-[36px]">
         <p className="text-sblack">Description</p>

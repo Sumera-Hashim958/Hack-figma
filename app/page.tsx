@@ -15,6 +15,7 @@ import CheckOut from "./components/CheckOut/checkout";
 import Cart from "./components/Cart/cart";
 import Contact from "./components/Contact/contact";
 import Description from "./components/Description/description";
+import FreeDelivery from "./components/FreeDelivery/freedelivery";
 
 const page = () => {
   return (
@@ -34,6 +35,7 @@ const page = () => {
       <Cart/>
       <Contact/>
       <Blog/>
+      <FreeDelivery/>
       <Footer/>
     </div>
   )

@@ -4,7 +4,7 @@ import { MagnifyingGlassIcon, UserIcon, HeartIcon, ShoppingCartIcon } from '@her
 
 const Navbar = () => {
   return (
-    <div className="w-full h-[100px] bg-biscuit px-4">
+    <div className="grid grid-cols-1 md:w-auto h-[100px] bg-biscuit px-4">
       <div className="flex flex-col md:flex-row justify-center items-center h-full space-y-4 md:space-y-0">
         
         {/* Navigation Menu */}

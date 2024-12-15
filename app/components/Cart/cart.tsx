@@ -3,12 +3,12 @@ import Image from 'next/image'
 
 const cart = () => {
   return (
-    <div className="h-[860px] mt-40">
+    <div className="h-[600px] mt-40">
     <div className="h-[316px] relative w-[100%] bg-[url('/shop-bg.svg')] bg-cover bg-center flex items-center justify-center">
     {/* Content Overlay */}
-    <div className=" text-center">
+    <div className="flex flex-col justify-center items-center">
         <Image src="./Meubel House_Logos-05.svg" alt="logo-image" width={77} height={77} className="items-center"/>
-        <p className="text-[48px] leading-[72px] font-medium font-poppings text-sblack mb-2">Cart</p>
+        <p className="text-[48px] leading-[50px] font-medium font-poppings text-sblack mb-2">Cart</p>
         <div className="flex justify-center items-center gap-4">
         <p className="text-[16px] leading-[24px] font-medium font-poppins">Home</p>
         <Image src="./Vector.svg" alt="logo-image" width={8} height={8}/>
@@ -47,34 +47,6 @@ const cart = () => {
           <Image src="./box-cart.svg" alt="table-cart-image" width={393} height={390} className="ml-10"/>
         </div>
       </div>
-      {/*footer Section*/}
-<div className="h-[300px] bg-simsmokey">
-      <div className="grid grid-cols-3 gap-x-6 gap-y-4 mt-20 text-white ml-[135px]">
-  {/*first column*/}
-      <div className="mt-20">
-      <div className="space-y-2">
-      <div className="flex space-x-4 font-medium text-[32px] leading-[48px] font-poppins text-sblack">Free Delivery</div>
-      <div className="flex space-x-4 font-normal text-[20px] leading-[30px] font-poppins text-greysame">For all oders over $50, consectetur adipim scing elit.</div>
-      </div>
-      </div>
-       {/*second column*/}
-       <div className="mt-20">
-      <div className="space-y-2">
-      <div className="flex space-x-4 font-medium text-[32px] leading-[48px] font-poppins text-sblack">90 Days Return</div>
-      <div className="flex space-x-4 font-normal text-[20px] leading-[30px] font-poppins text-greysame">If goods have problems, consectetur adipim scing elit.</div>
-      </div>
-      </div>
-            {/*third column*/}
-            <div className="mt-20">
-      <div className="space-y-2">
-      <div className="flex space-x-4 font-medium text-[32px] leading-[48px] font-poppins text-sblack">Secure Payment</div>
-      <div className="flex space-x-4 font-normal text-[20px] leading-[30px] font-poppins text-greysame">100% secure payment, consectetur adipim scing elit.</div>
-      </div>
-      </div>
-
-      </div>
-    </div>
-
     </div>
   )
 }
