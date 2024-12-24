@@ -3,15 +3,15 @@ import Image from 'next/image'
 
 const homePage = () => {
   return (
-    <div className="h-[900px] bg-biscuit">
-      <div className="flex">
-      <div className="w-1/3 flex flex-col justify-center items-start ml-[150px] mt-40">
-      <p className="text-[64px] leading-[96px] font-medium font-poppins w-[440px] h-[192px]">Rocket Single Seater</p>
-      <p className="text-[24px] leading-[36px] font-medium font-poppins">Shop Now</p>
-      <Image src="Line 1.svg" alt="line image" width={121} height={70}/>
+    <div className="min-h-screen bg-biscuit px-4 md:px-4 lg:px-8">
+      <div className="flex flex-col md:flex-row items-center justify-between">
+      <div className="w-full md:w-1/2 flex flex-col justify-center items-center md:items-start mt-10 md:mt-40 md:ml-[150px] space-y-4">
+      <p className="text-3xl md:text-5xl lg:text-[64px] leading-tight md:leading-[96px] font-medium font-poppins text-center md:text-left max-w-[440px]">Rocket Single Seater</p>
+      <p className="text-xl md:text-2xl lg:text-[24px] leading-relaxed md:leading-[36px] font-medium font-poppins">Shop Now</p>
+      <Image src="Line 1.svg" alt="line image" width={121} height={70} className="w-auto h-auto"/>
       </div>
-      <div className="h-[465px]">
-      <Image src={"/Rocket single seater 1.svg"} alt="next-image" width={863} height={900}/>
+      <div className="mt-8 md:mt-0">
+      <Image src={"/Rocket single seater 1.png"} alt="next-image" width={863} height={900}/>
       </div>
       </div>
     </div>

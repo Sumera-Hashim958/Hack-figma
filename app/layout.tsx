@@ -1,5 +1,8 @@
 import "./globals.css";
 import { Poppins, Inter } from "next/font/google";
+import Navbar from "./components/Navbar/navbar";
+import Footer from "./components/Footer/footer";
+
 
 const myfontfamily = Poppins ({
   subsets : ['latin'],
@@ -18,8 +21,10 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${myfontfamily.className} ${mythirdfont.className}`}>
-      
+          <Navbar/>
         {children}
+
+        <Footer/>
       </body>
     </html>
   );
